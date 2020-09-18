@@ -20,7 +20,7 @@ INSTRUCCIONES DE USO
 
 	1.- Datos de acceso Usuario = "fernando.adelvalle@gmail.com" Contraseña = "123456"
 	2.- Ejecutar el servidor de php (es decir, xampp, lampp, wampp, etc).
-	3.- Abrir navegador web de preferencia eingresar a la direccion "localhost/usermodule".
+	3.- Abrir navegador web de preferencia e ingresar a la direccion "localhost/usermodule".
 	4.- Una vez visualizada la pantalla de logeo ingresaros los datos de acceo indicados en el paso 1.-
 	5.- Iniciada la sesión se observa la pantalla de bienvenida y los menus ("Inicio", "Listar usuarios" y "Agregar usuarios")
 	6.- ingresar al menú "Listar usuarios"
