@@ -7,7 +7,7 @@ REQUERIMIENTOS
 INTALACIÓN DE APLICACIÓN WEB
 
 	1.- Descargar proyecto UserModule (https://github.com/FernandoADelvalleH/usermodule.git).
-	2.- Descomprimir y mover carpeta del proyecto (la carpeta del proyecto debe llamarse "usermodule" para que la aplicación no presente error al momento de navegar en tr los links de la misma aplicación, de ser necesario renombrar la carpeta a "usermodule") a la direccion del "htdocs" de cualqueir servidor de php (ejemplo Lampp, Xampp, Wamp...).
+	2.- Descomprimir y mover carpeta del proyecto (la carpeta del proyecto debe llamarse "usermodule" para que la aplicación no presente error al momento de navegar entre los links de la misma aplicación, de ser necesario renombrar la carpeta a "usermodule") a la dirección del "htdocs" de cualqueir servidor de php (ejemplo Lampp, Xampp, Wamp...).
 	3.- ingresar a phpmyadmin y crear una nueva ase de datos con el nombre "ejemplos".
 	4.- Ingresar al menú de importacion una vez creada y seleccionada la base de datos "ejemplos".
 	5.- En la sección "Archivo a importar" darclic al boton "Seleccionar archivo".
