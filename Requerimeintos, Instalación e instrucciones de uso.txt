@@ -1,0 +1,32 @@
+REQUERIMIENTOS
+
+	1.- Tener instalado algun servidor de php como Xampp, Lampp o Wampp.
+	3.- Instalar algun navegador Web como Chrome, Edge (Explorer), Safari, Mozilla o similar.
+
+
+INTALACIÓN DE APLICACIÓN WEB
+
+	1.- Descargar proyecto UserModule (LINK).
+	2.- Descomprimir y mover carpeta de proyecto a la direccion del "htdocs" de cualqueir servidor de php (ejemplo Lampp, Xampp, Wamp...).
+	3.- ingresar a phpmyadmin y crear una nueva ase de datos con el nombre "ejemplos".
+	4.- Ingresar al menú de importacion una vez creada y seleccionada la base de datos "ejemplos".
+	5.- En la sección "Archivo a importar" darclic al boton "Seleccionar archivo".
+	6.- En el cuadro de dialogo del exporador de archivos, dentro de la carpeta del proyecto "usermodule", localizar archivo de la base de datos con el nombre "ejemplos.sql" y seleccionar.
+	7.- Dar clic en el boton "Abrir".
+	8.- Esperar que se cargue la informacion a la base de datos.
+
+
+INSTRUCCIONES DE USO
+
+	1.- Datos de acceso Usuario = "fernando.adelvalle@gmail.com" Contraseña = "123456"
+	2.- Ejecutar el servidor de php (es decir, xampp, lampp, wampp, etc).
+	3.- Abrir navegador web de preferencia eingresar a la direccion "localhost/usermodule".
+	4.- Una vez visualizada la pantalla de logeo ingresaros los datos de acceo indicados en el paso 1.-
+	5.- Iniciada la sesión se observa la pantalla de bienvenida y los menus ("Inicio", "Listar usuarios" y "Agregar usuarios")
+	6.- ingresar al menú "Listar usuarios"
+	6.1.- Aqui se observa una tabla con el listados de usuarios registrados en la base de datos, y las opciones para modificar la informacion o eliminar los mismos.
+	6.2.- En el listado de usuarios en la columna de acciones se encuentran cuatro botones, en orden de izquierda a derecha:
+		1. El primero "Editar" información de contactos (Envia a un formaluario donde podra ser modificada la información mostrada en el msimo formulario y los roles designados).
+		2. Segundo "Editar contraseña" donde se podra cambiar la contraseña de cada usuario.
+		3. Tercero "Editar permisos" donde se designa por usuario los parmisos para acceder a los menos seleccionados.
+		4. Cuarto "Eliminar usuario", envía a otra pantalla para confirmar la eliminación del usuario seleccionado y posterior regresa al listados de usarios.
